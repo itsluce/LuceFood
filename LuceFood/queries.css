@@ -1,0 +1,628 @@
+/* small lap under1300px */
+@media (max-width: 84em) {
+  .mainContainer {
+    max-width: 70rem;
+  }
+  .heroImg {
+    margin-left: 4rem;
+  }
+  .galleryContainer {
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .signupCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Tablet under1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 65.25%;
+  }
+  .heroImg {
+    margin-left: 8rem;
+  }
+  .howItWorks {
+    margin-left: 4rem;
+  }
+  .steps {
+    margin-left: 4rem;
+  }
+  .mobDirection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 6rem;
+  }
+  .asideHead {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.3rem;
+  }
+  .gallery {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .galleryContainer {
+    max-width: 70%;
+  }
+  .parDescription {
+    font-size: 1.56rem;
+  }
+  .parName {
+    font-size: 1.2rem;
+  }
+  .contantImg {
+    max-width: 4.83rem;
+  }
+}
+@media (max-width: 56.6em) {
+  /* html {
+    font-size: 51.25%;
+  } */
+  .featuredText,
+  .howItWorks,
+  .mealshead,
+  .testimonians,
+  .pricingText {
+    font-size: 1.5rem;
+  }
+  .menuButtonContainer {
+    display: inherit;
+  }
+  .nav {
+    display: none;
+  }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    max-width: 56.6rem;
+    text-align: center;
+  }
+  .summary {
+    font-size: 1.7rem;
+    max-width: 56.6rem;
+    text-align: center;
+  }
+  .sideHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+  }
+  .primaryButton,
+  .secondaryButton {
+    font-size: 1.7rem;
+  }
+  .customersInfo {
+    font-size: 1.4rem;
+  }
+  .customerNumberInfo {
+    font-size: 1.4rem;
+  }
+  .costomersImg {
+    max-width: 3.7rem;
+    height: 3.7rem;
+  }
+  .heroImg {
+    max-width: 100%;
+    max-height: 35rem;
+  }
+  .mobArticle,
+  .mobArticle2 {
+    font-size: 1.5rem;
+  }
+  .mobImg,
+  .mobImg2 {
+    height: 20rem;
+  }
+  .padd {
+    padding: 2rem 1rem;
+  }
+  .veg,
+  .vegan,
+  .paleo {
+    font-size: 1rem;
+  }
+  .mealDescription {
+    font-size: 1.33rem;
+  }
+  .testimoniansSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .pricingCardContainer {
+    max-width: 80%;
+  }
+  .parDescription {
+    font-size: 1.5rem;
+  }
+  .parName {
+    font-size: 1.2rem;
+  }
+  .contantImg {
+    max-width: 4.8rem;
+  }
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 100%;
+  }
+  .allRecipes {
+    font-size: 1.3rem;
+  }
+  .pricingList {
+    font-size: 1.5rem;
+  }
+  .pricingValue {
+    font-size: 3.73rem;
+  }
+  .pricingPeriod {
+    font-size: 1.36rem;
+    text-align: center;
+  }
+  .supPar {
+    font-size: 1.5rem;
+  }
+  .footerCopyright {
+    font-size: 1.1rem;
+  }
+  .footerLabel {
+    font-size: 1.4rem;
+  }
+  .footerLocation {
+    margin-bottom: 1.83rem;
+  }
+  .footerInfo {
+    font-size: 1.26rem;
+  }
+}
+@media (max-width: 44em) {
+  .featuredLogo {
+    height: 1.5rem;
+  }
+  .howItWorks {
+    margin-left: 1.3rem;
+  }
+  .steps {
+    margin-left: 1.3rem;
+  }
+  .mobDirection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+
+  .mobArticle,
+  .mobArticle2 {
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
+  .mealContainer {
+    padding-left: 2.5rem;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .mealsnum {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+  }
+  .mealsCard {
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    max-width: 100%;
+    /* max-height: 85%; */
+    margin-bottom: 4rem;
+  }
+  .mealImg {
+    max-width: 150%;
+  }
+  .padd {
+    padding: 2.3rem 4.15rem;
+  }
+  .mealTitle {
+    font-size: 2rem;
+  }
+  .veg,
+  .vegan,
+  .paleo {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+  }
+  .veg {
+    max-width: 8.5rem;
+  }
+  .mealDescription {
+    font-size: 1.63rem;
+  }
+  .sideBar {
+    max-width: 100%;
+  }
+  .asideHead {
+    font-size: 3rem;
+  }
+  .testimoniansDescription {
+    max-width: 100%;
+  }
+  .description {
+    font-size: 1.7rem;
+  }
+  .imgDiriction {
+    display: flex;
+    justify-content: center;
+  }
+  .mobImg2 {
+    display: none;
+  }
+  .mobImg,
+  .mobImg3 {
+    display: block;
+    height: 20rem;
+    width: 10rem;
+  }
+  .pricingText {
+    margin: 2rem 1rem;
+  }
+  .pricingDescription {
+    font-size: 2.7rem;
+    margin: 1rem;
+    max-width: 100%;
+  }
+  .pricingCardContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  .pricingTax {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .supContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .supList {
+    max-width: 100%;
+  }
+  .signupContainer {
+    margin: 1.66rem;
+    max-width: 100%;
+  }
+}
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+  .featuredText,
+  .howItWorks,
+  .mealshead,
+  .testimonians,
+  .pricingText {
+    font-size: 1.9rem;
+  }
+  .logo {
+    font-size: 3.1rem;
+  }
+  .logoImg {
+    max-width: 4rem;
+    height: 7rem;
+    margin-top: -1.9rem;
+  }
+  .menuButton {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  h1 {
+    margin: -2.5rem 2rem 2rem 2rem;
+    font-size: 3.7rem;
+  }
+  .summary {
+    margin: 0 2.5rem;
+    font-size: 1.8rem;
+  }
+
+  .customersInfo {
+    font-size: 1.7rem;
+  }
+  .customerNumberInfo {
+    font-size: 1.7rem;
+  }
+  .heroImgContainer {
+    margin-left: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .featuredLogoContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1rem;
+    /* max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto; */
+  }
+  .featuredText {
+    font-size: 1.2rem;
+  }
+  .featuredLogo {
+    height: 1.4rem;
+  }
+  .steps {
+    font-size: 4rem;
+    line-height: 1.4;
+  }
+  .mobNum {
+    font-size: 8.5rem;
+  }
+  .mobTitle {
+    font-size: 2.7rem;
+    line-height: 1.4;
+  }
+  .mobArticle,
+  .mobArticle2 {
+    font-size: 1.9rem;
+    margin-bottom: 4rem;
+  }
+
+  .mobImg,
+  .mobImg2,
+  .mobImg3 {
+    height: 40rem;
+    width: 20rem;
+  }
+  .mealsnum {
+    font-size: 3.6rem;
+  }
+  .mealsCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    max-width: 90%;
+    margin-bottom: 4rem;
+    height: 42%;
+  }
+  .mealImg {
+    max-width: 150%;
+  }
+  .mealsIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .padd {
+    padding: 2.3rem 4.15rem;
+    padding-bottom: 0.5rem;
+  }
+  .mealTitle {
+    font-size: 3.5rem;
+    padding-bottom: 4rem;
+  }
+  .veg,
+  .vegan,
+  .paleo {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    max-width: 10rem;
+    height: 2rem;
+  }
+  .veg {
+    max-width: 15.5rem;
+  }
+  .mealDescription {
+    font-size: 2.5rem;
+  }
+  .sideBar {
+    margin-top: -6rem;
+    max-width: 100%;
+    margin-left: -1rem;
+  }
+  .asideHead {
+    font-size: 3rem;
+    letter-spacing: -0.1rem;
+  }
+  .description {
+    font-size: 2.3rem;
+    line-height: 2;
+  }
+  .checkIcon {
+    max-width: 3.13rem;
+    height: 3.13rem;
+  }
+  .allRecipes {
+    font-size: 1.7rem;
+  }
+  .testimoniansDescription {
+    font-size: 3.06rem;
+  }
+  .parContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .parDescription {
+    font-size: 1.9rem;
+  }
+  .parName {
+    font-size: 1.3rem;
+  }
+  .contantImg {
+    max-width: 6.33rem;
+    border-radius: 50%;
+  }
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pricingDescription {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .pricingCardContainer {
+    max-width: 70%;
+    margin: 6.4rem auto;
+    gap: 3.73rem;
+  }
+  .pricingCard {
+    padding: 3.6rem 2.6rem;
+  }
+  .pricingTitle {
+    font-size: 2rem;
+  }
+  .pricingValue {
+    font-size: 4.5rem;
+  }
+  .pricingPeriod {
+    font-size: 2rem;
+  }
+  .pricingList {
+    font-size: 1.8rem;
+  }
+  li {
+    line-height: 1.5;
+  }
+  .pricingIcon {
+    max-width: 2.13rem;
+    height: 2.13rem;
+    color: #e67e22;
+    margin-right: 0.66rem;
+  }
+  .pricingCard2::after {
+    top: 5%;
+    right: -24%;
+    font-size: 1.3rem;
+  }
+  .pricingTax {
+    font-size: 1.5rem;
+  }
+  .supContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -2rem;
+  }
+  .supList {
+    max-width: 100%;
+  }
+  .supIcon {
+    width: 3rem;
+    height: 3rem;
+    max-width: 100%;
+    color: #e67e22;
+    background-color: #fdf2e9;
+    border-radius: 50%;
+    padding: 1.06rem;
+  }
+  .supTitle {
+    margin: 2.4rem 0 1.73rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #444;
+  }
+  .supPar {
+    max-width: 100%;
+    font-size: 1.8rem;
+  }
+  .signupContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .signupList {
+    max-width: 100%;
+  }
+  .signupImgMob {
+    display: block;
+    height: 32rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(235, 151, 78, 0.35),
+        rgba(230, 125, 34, 0.35)
+      ),
+      url(../img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  .signupImg {
+    display: none;
+  }
+  .signupTitle {
+    font-size: 3.56rem;
+    max-width: 90%;
+  }
+  .signupDescription {
+    font-size: 2rem;
+    max-width: 85%;
+  }
+  .signupCard {
+    max-width: 100%;
+    padding: 2.4rem 2.73rem;
+  }
+  .signupLabel {
+    font-size: 1.56rem;
+  }
+  .input {
+    margin-top: 0.66rem;
+    padding-left: 1.06rem;
+    font-size: 1.7rem;
+    max-width: 100%;
+    height: 4rem;
+  }
+  .input2 {
+    display: block;
+    margin-top: 0.66rem;
+    padding-left: 1.06rem;
+    font-size: 1.7rem;
+    max-width: 100%;
+    height: 4rem;
+  }
+  .signupLabel2 {
+    display: block;
+    font-size: 1.56rem;
+  }
+  .email2 {
+    display: none;
+  }
+  .signupSelect {
+    margin-top: 0.66rem;
+    padding-left: 1.06rem;
+    font-size: 1.7rem;
+    max-width: 100%;
+    height: 4rem;
+  }
+  .signupButton {
+    margin-top: 3.13rem;
+    font-size: 1.9rem;
+    max-width: 100%;
+    height: 5rem;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hxi {
+    margin: 1rem 0;
+  }
+}
